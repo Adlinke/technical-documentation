@@ -1,8 +1,8 @@
 ---
 title: GitLab - OIDC
 excerpt: ''
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: GitLab - OIDC
   description: ''
