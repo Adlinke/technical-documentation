@@ -6,6 +6,7 @@
 - gcp
 - kerberos-1
 - kubernetes
+- ldap-1
 - oidc
 - saml-1
 - oauth-20-jwt
