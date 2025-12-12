@@ -9,6 +9,6 @@
 - auth-with-ldap
 - auth-with-oauth-jwt
 - auth-with-oci
-- oidc
+- auth-with-oidc
 - saml-1
 - uid
