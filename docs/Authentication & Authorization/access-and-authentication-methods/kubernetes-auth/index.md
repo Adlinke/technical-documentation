@@ -1,8 +1,8 @@
 ---
 title: Kubernetes
 excerpt: Kubernetes (K8s)
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: Kubernetes
   description: ''
