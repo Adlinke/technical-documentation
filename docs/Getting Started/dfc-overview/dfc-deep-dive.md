@@ -220,7 +220,7 @@ DFC supports:
 * Encryption and decryption
 * Signing and verification
 * HMAC
-* Certificate signing (<Glossary>PKI (Public Key Infrastructure)</Glossary>)
+* Certificate signing with <Glossary>PKI (Public Key Infrastructure)</Glossary>)
 * SSH key signing
 * Dynamic secret derivation
 * Token generation
