@@ -3,12 +3,12 @@
 - azure-ad-1
 - certificate
 - email-1
+- gcp
 - ldap-1
 - oidc
 - saml-1
 - kerberos-1
 - kubernetes
 - oauth-20-jwt
-- gcp
 - uid
 - oci
