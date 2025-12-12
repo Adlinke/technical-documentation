@@ -1,8 +1,8 @@
 ---
 title: OCI IAM
 excerpt: Oracle Cloud Infrastructure (OCI) IAM
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: ''
   description: ''
