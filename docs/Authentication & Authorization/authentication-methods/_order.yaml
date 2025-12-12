@@ -6,7 +6,7 @@
 - auth-with-gcp
 - auth-with-kerberos
 - auth-with-kubernetes
-- ldap-1
+- auth-with-ldap
 - oauth-20-jwt
 - oci
 - oidc
