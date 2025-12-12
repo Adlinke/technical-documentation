@@ -1,5 +1,5 @@
 ---
-title: Policies
+title: Policies & Governance
 deprecated: false
 hidden: false
 metadata:
