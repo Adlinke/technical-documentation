@@ -1,8 +1,8 @@
 ---
 title: OAuth 2.0/JWT
 excerpt: ''
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: OAuth2.0/JWT
   description: ''
