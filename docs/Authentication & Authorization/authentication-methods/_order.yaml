@@ -7,8 +7,8 @@
 - kerberos-1
 - kubernetes
 - ldap-1
+- oauth-20-jwt
 - oidc
 - saml-1
-- oauth-20-jwt
 - uid
 - oci
