@@ -1,8 +1,8 @@
 ---
 title: RBAC
 excerpt: Role-Based Access Control
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: Access Roles & RBAC
   description: ''
