@@ -16,7 +16,7 @@ The architecture ensures that no complete secret or private key is ever present 
 
 ## Architecture Overview
 
-Traditional vault systems maintain encrypted storage that contains secrets or private keys. Akeyless replaces this model with an execution-based approach built on Distributed Fragments Cryptography (DFC). In this model:
+Traditional vault systems maintain encrypted storage that contains secrets or private keys. Akeyless replaces this model with an execution-based approach built on [Distributed Fragments Cryptography (DFC)](doc:dfc-overview). In this model:
 
 * Sensitive key material is represented as independent fragments.
 * Fragments remain confined to their respective locations.
