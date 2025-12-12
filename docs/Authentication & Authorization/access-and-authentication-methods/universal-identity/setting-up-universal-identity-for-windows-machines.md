@@ -1,14 +1,13 @@
 ---
 title: Setting Up Universal Identity for Windows Machines
-excerpt: ''
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
+link:
+  new_tab: false
 metadata:
   title: Setting Up Universal Identity for Windows Machines
   description: ''
   robots: index
-next:
-  description: ''
 ---
 To use [Universal Identity](https://docs.akeyless.io/docs/universal-identity) tokens for a Windows machine, you need to set up the machine to accept and renew tokens (through the use of **PowerShell** and **Task Scheduler**).
 
@@ -18,8 +17,8 @@ To use [Universal Identity](https://docs.akeyless.io/docs/universal-identity) to
 
 ## Steps
 
-1. On the Windows machine, create the following [PowerShell script](https://download.akeyless.io/Akeyless_Artifacts/Windows/Universal_Identity/), where you can replace the`$HOME` (wherever it appears in the script) with the home directory of the user who is going to use this token to authenticate.\
-   Save the script as **akeyless\_universal\_identity.ps1**.
+1. On the Windows machine, create the following [PowerShell script](https://download.akeyless.io/Akeyless_Artifacts/Windows/Universal_Identity/), where you can replace the`$HOME` (wherever it appears in the script) with the home directory of the user who is going to use this token to authenticate.  
+   Save the script as **akeyless_universal_identity.ps1**.
 
 > 👍 Tip
 >
@@ -127,6 +126,6 @@ else {
 
 3. Open **Task Scheduler**, and modify the settings of the newly created task (`akeyless_universal_identity_rotator`) to use the following options:
 
-<Image align="center" className="border" width="smart" border={true} src="https://files.readme.io/a78ce9d-universal-identity.png" />
+<Image align="center" border={true} width="smart" src="https://files.readme.io/a78ce9d-universal-identity.png" className="border" />
 
 4. Confirm the newly created `$HOME\.vault-token` file should start refreshing with a new `u-token` every 10 minutes.
