@@ -1,8 +1,8 @@
 ---
 title: Universal Identity
 excerpt: Universal Identity (UID)
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: Universal Identity
   description: ''
