@@ -1,8 +1,8 @@
 ---
 title: Azure AD SAML Authentication
 excerpt: ''
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: Azure AD SAML Authentication
   description: ''
