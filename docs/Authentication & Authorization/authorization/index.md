@@ -53,15 +53,19 @@ Akeyless combines multiple mechanisms to provide flexible and precise access con
 
 RBAC defines baseline permissions using roles that grant specific capabilities on defined paths. Roles are reusable and commonly used to enforce least-privilege access for both humans and machines.
 
-***
+RBAC answers the question:
+
+> _What actions is this identity allowed to perform on which resources?_
 
 ### Attribute-Based Access Control (ABAC)
 
 ABAC extends RBAC with conditional logic. Policies can restrict access based on attributes such as identity properties, environment, time, network context, or request metadata.
 
-RBAC and ABAC are evaluated together during authorization.
+ABAC answers the question:
 
-***
+> _Under what conditions should access be allowed or denied?_
+
+RBAC and ABAC are evaluated together during authorization.
 
 ### Ownership and Personal Folders
 
@@ -69,11 +73,13 @@ Ownership-based access allows users to control resources they own without requir
 
 Ownership rules complement, but do not replace, role-based policies.
 
-***
-
 ### Universal Identity
 
 Universal Identity is an authorization abstraction that maps multiple authentication methods to a single logical identity. This enables consistent policy enforcement and governance even when the same workload or user authenticates using different mechanisms across environments.
+
+Universal Identity answers the question:
+
+> _How do we represent and govern identities consistently, regardless of how they authenticate?_
 
 Universal Identity does not authenticate identities; it governs how authenticated identities are represented and authorized.
 
