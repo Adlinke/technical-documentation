@@ -41,19 +41,6 @@ Authentication establishes the user’s identity, which is then evaluated agains
 
 ***
 
-## Authorization Enforcement
-
-All actions performed through the browser are subject to authorization controls, including:
-
-* Role-Based Access Control (RBAC)
-* Attribute-Based Access Control (ABAC)
-* Ownership and personal folders
-* Universal Identity mapping, when applicable
-
-Permissions in the UI reflect the same policy enforcement used by API and CLI access.
-
-***
-
 ## Session Management
 
 Browser access is session-based:
@@ -63,15 +50,6 @@ Browser access is session-based:
 * Re-authentication is required after session expiration
 
 Session-based access does not bypass policy enforcement.
-
-***
-
-## Key Characteristics
-
-* Interactive and human-oriented
-* UI-driven workflows
-* No direct handling of raw credentials after login
-* Subject to the same audit logging as other access paths
 
 ***
 
