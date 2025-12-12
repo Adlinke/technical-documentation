@@ -11,12 +11,12 @@ Distributed Fragments Cryptography (DFC) is a distributed key management framewo
 
 ## Cryptographic Foundations
 
-DFC uses standard, NIST-approved primitives:
+DFC uses standard, <Glossary>NIST</Glossary>-approved primitives:
 
-* **AES** — symmetric encryption
-* **HMAC** — message authentication and integrity
-* **KDFs** — for deriving per-operation values from fragments
-* **Hybrid TLS 1.3 (ML-KEM768 + X25519)** — post-quantum–resistant communication
+* **<Glossary>AES (Advanced Encryption Standard)</Glossary>**: symmetric encryption
+* **<Glossary>HMAC (Hash-Based Message Authentication Code)</Glossary>**: message authentication and integrity
+* **KDFs**: for deriving per-operation values from fragments
+* **<Glossary>Hybrid TLS 1.3</Glossary> (<Glossary>ML-KEM768</Glossary> + <Glossary>X25519</Glossary>)**: post-quantum–resistant communication
 
 DFC does not introduce new encryption algorithms; it introduces a new key-handling and fragmentation model.
 
