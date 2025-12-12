@@ -5,9 +5,9 @@
 - email-1
 - gcp
 - ldap-1
-- oidc
 - kerberos-1
 - kubernetes
+- oidc
 - saml-1
 - oauth-20-jwt
 - uid
