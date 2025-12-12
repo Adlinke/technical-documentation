@@ -1,101 +1,121 @@
 ---
-title: Authorization Models
+title: Authorization, Policies, and Governance
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-This section describes how Akeyless evaluates **who can access what**, and under which conditions. Authorization in Akeyless is independent from how an identity authenticates and focuses on enforcing consistent, least-privilege access across users, workloads, and environments.
+This section describes how Akeyless determines **what authenticated identities are allowed to do**, how those decisions are enforced, and how access is governed over time.
 
-Authorization decisions are applied after authentication has successfully identified an entity. Once authenticated, Akeyless evaluates authorization models to determine which operations are permitted on secrets, keys, certificates, and other resources.
+In Akeyless, authorization, policy evaluation, and governance are not separate systems. They are part of a single access control model that consistently enforces permissions across users, workloads, environments, and access paths.
 
-This section covers the core authorization mechanisms used throughout the platform.
+This section explains how access decisions are made, how policies are structured, and how organizations govern access at scale.
 
-## What Authorization Controls in Akeyless
+---
 
-Authorization governs:
+## What Authorization Means in Akeyless
 
-* Which paths an identity can access
-* Which operations are allowed (read, create, update, delete, list, etc.)
-* Under what conditions access is granted or denied
-* How ownership and delegation are enforced
-* How access is evaluated consistently across UI, API, and CLI access
+Authorization in Akeyless answers the question:
 
-Authorization policies apply uniformly, regardless of how an identity authenticated.
+> **What actions is this identity allowed to perform on which resources, and under what conditions?**
 
-***
+Authorization is evaluated after authentication has established identity. Once authenticated, every request is subject to policy evaluation before it is allowed or denied.
 
-## Authorization Models Used by Akeyless
+Authorization behavior is consistent regardless of whether access occurs through:
+- The web console
+- APIs
+- CLI tools
+- SDKs
+- Gateways or private environments
 
-Akeyless combines multiple authorization models to provide both flexibility and strong governance.
+---
+
+## Policy-Centric Access Control
+
+Akeyless uses a policy-centric model. All authorization decisions are enforced through policies that define:
+
+- Which resource paths can be accessed
+- Which operations are permitted (read, create, update, delete, list, etc.)
+- Conditional rules that restrict access based on context
+- Ownership and delegation rules
+- How identities are represented and resolved
+
+Policies are evaluated in real time for every request.
+
+---
+
+## Authorization Mechanisms
+
+Akeyless combines multiple mechanisms to provide flexible and precise access control.
 
 ### Role-Based Access Control (RBAC)
 
-RBAC defines access using roles that grant permissions to specific paths and actions. Roles are reusable, composable, and commonly used to enforce least-privilege access for both humans and machines.
+RBAC defines baseline permissions using roles that grant specific capabilities on defined paths. Roles are reusable and commonly used to enforce least-privilege access for both humans and machines.
 
-RBAC answers the question:
-
-> _What actions is this identity allowed to perform on which resources?_
+---
 
 ### Attribute-Based Access Control (ABAC)
 
-ABAC extends RBAC by introducing conditional logic based on attributes such as identity properties, environment, time, network context, or request metadata.
+ABAC extends RBAC with conditional logic. Policies can restrict access based on attributes such as identity properties, environment, time, network context, or request metadata.
 
-ABAC answers the question:
+RBAC and ABAC are evaluated together during authorization.
 
-> _Under what conditions should access be allowed or denied?_
+---
 
-RBAC and ABAC are evaluated together during policy enforcement.
+### Ownership and Personal Folders
 
-### Personal Folders and Ownership
+Ownership-based access allows users to control resources they own without requiring explicit role assignments. Personal Folders use ownership rules to separate private and shared resources.
 
-Personal Folders provide ownership-based access separate from role assignments. They are commonly used for individual users, experimentation, or private workspaces.
+Ownership rules complement, but do not replace, role-based policies.
 
-Ownership-based access determines:
-
-* Default access behavior for user-owned paths
-* How personal and shared resources are separated
-* When roles should be used instead of ownership
+---
 
 ### Universal Identity
 
-Universal Identity is an authorization abstraction that allows multiple authentication methods to map to a single logical identity. It provides consistent policy enforcement and governance even when workloads authenticate using different mechanisms across environments.
+Universal Identity is an authorization abstraction that maps multiple authentication methods to a single logical identity. This enables consistent policy enforcement and governance even when the same workload or user authenticates using different mechanisms across environments.
 
-Universal Identity answers the question:
+Universal Identity does not authenticate identities; it governs how authenticated identities are represented and authorized.
 
-> _How do we represent and govern identities consistently, regardless of how they authenticate?_
+---
 
-***
+## Governance in Akeyless
 
-## How Authorization Is Evaluated
+Governance defines how access policies are designed, managed, reviewed, and evolved over time. In Akeyless, governance is enforced through policy structure and operational practices rather than manual controls.
 
-At a high level, authorization follows this sequence:
+Key governance principles include:
+- Least-privilege access
+- Separation of duties
+- Environment and namespace isolation
+- Clear ownership and delegation
+- Auditability and review
 
-1. An identity authenticates using a supported authentication method.
-2. The authenticated identity is mapped to a logical identity.
-3. RBAC and ABAC policies are evaluated.
-4. Ownership rules are applied when relevant.
-5. The request is either allowed or denied.
+Governance applies uniformly across all access paths and environments.
 
-This evaluation process is the same whether access occurs through the web console, API, CLI, or Akeyless Gateway-mediated workflows.
+---
 
-***
+## Policy Lifecycle
 
-## When to Use Each Model
+Effective access control requires managing the full policy lifecycle:
 
-* **RBAC** for defining baseline permissions and shared access patterns
-* **ABAC** for conditional or context-aware access
-* **Personal Folders** for individual user-owned resources
-* **Universal Identity** for unifying access across authentication methods and environments
+1. Designing policies and roles
+2. Assigning access to identities
+3. Enforcing policies during runtime
+4. Reviewing access and audit activity
+5. Troubleshooting and remediating issues
 
-Most deployments use a combination of these models.
+This section covers both the mechanics of policy evaluation and practical guidance for maintaining secure access over time.
 
-***
+---
+
+## Subsections
+
+This section includes the following focused pages:
+
+- **Policy Evaluation** – How policies are evaluated, ordered, and enforced
+- **Policy Troubleshooting** – How to diagnose and resolve authorization issues
+
+---
 
 ## Next Steps
 
-The pages in this section describe each authorization model in detail, including configuration options, evaluation behavior, and recommended usage patterns.
-
-Understanding these models is essential for designing secure, scalable access controls in Akeyless.
-
-<br />
+Understanding authorization, policies, and governance is essential for operating Akeyless securely at scale. The following pages provide detailed guidance on policy behavior and troubleshooting access decisions.
