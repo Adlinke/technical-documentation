@@ -2,6 +2,8 @@
 title: Authorization, Policies, and Governance
 deprecated: false
 hidden: false
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
