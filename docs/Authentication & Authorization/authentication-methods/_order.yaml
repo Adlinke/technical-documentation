@@ -4,7 +4,6 @@
 - certificate
 - email-1
 - gcp
-- ldap-1
 - kerberos-1
 - kubernetes
 - oidc
