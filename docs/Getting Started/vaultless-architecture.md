@@ -45,7 +45,7 @@ When a client requests an operation (e.g., retrieving a secret, generating a dyn
 4. Derived values are combined to produce an operation-specific result without exposing complete key material.
 5. No reconstructed secret or private key is written to disk or retained after the operation.
 
-If a Customer Fragment (CF) is configured, Akeyless cannot complete cryptographic operations without the customer's involvement.
+If a <Glossary>Customer Fragment (CF)</Glossary> is configured, Akeyless cannot complete cryptographic operations without the customer's involvement.
 
 ***
 
