@@ -1,8 +1,8 @@
 ---
 title: API Key
 excerpt: ''
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: API Key
   description: ''
