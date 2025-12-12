@@ -99,11 +99,11 @@ Capacity planning focuses on request throughput rather than storage performance.
 
 Key security properties of the Vaultless architecture include:
 
-* **Non-reconstruction** — Full private keys never exist in memory on any single component.
-* **Non-persistence** — Sensitive material is never written to disk.
-* **Fragment isolation** — Fragment values exist only within their respective fragment holders.
-* **Optional customer control** — A customer-held fragment prevents unilateral operation execution.
-* **Compartmentalization** — Compromise of any single component yields no usable key information.
+* **Non-reconstruction**: Full private keys never exist in memory on any single component.
+* **Non-persistence**: Sensitive material is never written to disk.
+* **Fragment isolation**: Fragment values exist only within their respective fragment holders.
+* **Optional customer control**: A customer-held fragment prevents unilateral operation execution.
+* **Compartmentalization**: Compromise of any single component yields no usable key information.
 
 These properties reduce the exposure surface associated with stored-secret systems.
 
