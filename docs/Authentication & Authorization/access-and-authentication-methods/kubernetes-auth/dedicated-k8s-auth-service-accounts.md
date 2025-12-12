@@ -1,8 +1,8 @@
 ---
 title: Dedicated Kubernetes Service Accounts
 excerpt: ''
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: ''
   description: ''
