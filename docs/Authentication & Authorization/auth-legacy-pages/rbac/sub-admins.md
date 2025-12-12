@@ -1,8 +1,8 @@
 ---
 title: Sub-Admins
 excerpt: ''
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: Sub-Admins
   description: ''
