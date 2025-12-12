@@ -1,8 +1,8 @@
 ---
 title: Azure AD
 excerpt: Azure Active Directory (AD)
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: Azure Active Directory
   description: ''
