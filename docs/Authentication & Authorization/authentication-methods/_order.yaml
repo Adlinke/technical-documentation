@@ -1,6 +1,6 @@
 - auth-with-api-key
 - auth-with-aws-iam
-- azure-ad-1
+- auth-with-azure-ad
 - certificate
 - email-1
 - gcp
