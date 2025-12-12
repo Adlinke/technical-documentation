@@ -69,7 +69,7 @@ This changes the threat model: compromising the storage layer yields no useful d
 
 ***
 
-## Gateway Role
+## Akeyless Gateway Role
 
 The Akeyless Gateway provides access to private networks, closed environments, and on-premises infrastructure. Its role is limited to communication and optional customer-fragment participation. The Gateway:
 
