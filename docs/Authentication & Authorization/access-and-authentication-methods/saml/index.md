@@ -1,8 +1,8 @@
 ---
 title: SAML
 excerpt: Security Assertion Markup Language (SAML)
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: SAML
   description: ''
