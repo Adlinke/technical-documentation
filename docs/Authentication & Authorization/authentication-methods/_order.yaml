@@ -1,9 +1,9 @@
 - api-key
+- certificate
 - email-1
 - ldap-1
 - oidc
 - saml-1
-- certificate
 - kerberos-1
 - kubernetes
 - oauth-20-jwt
