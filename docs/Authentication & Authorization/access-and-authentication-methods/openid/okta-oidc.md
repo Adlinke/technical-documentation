@@ -1,8 +1,8 @@
 ---
 title: Okta - OIDC
 excerpt: ''
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: Okta- OIDC
   description: ''
