@@ -1,8 +1,8 @@
 ---
 title: Auth0 - OIDC
 excerpt: ''
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: Auth0 - OIDC
   description: ''
