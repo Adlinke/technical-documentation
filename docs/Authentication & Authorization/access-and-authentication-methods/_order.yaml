@@ -1,6 +1,6 @@
 - api-key-1
 - aws-iam-auth
-- azure-ad
+- azure-ad-auth
 - certificate-based-authentication
 - email
 - gcp-auth-method
