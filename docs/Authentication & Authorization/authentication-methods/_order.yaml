@@ -2,7 +2,7 @@
 - auth-with-aws-iam
 - auth-with-azure-ad
 - auth-with-certificate
-- email-1
+- auth-with-email
 - gcp
 - kerberos-1
 - kubernetes
