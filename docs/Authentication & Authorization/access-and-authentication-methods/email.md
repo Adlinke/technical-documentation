@@ -1,8 +1,8 @@
 ---
 title: Email
 excerpt: ''
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: Email
   description: ''
