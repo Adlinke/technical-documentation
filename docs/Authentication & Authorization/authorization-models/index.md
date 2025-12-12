@@ -15,15 +15,15 @@ This section covers the core authorization mechanisms used throughout the platfo
 
 Authorization governs:
 
-- Which paths an identity can access
-- Which operations are allowed (read, create, update, delete, list, etc.)
-- Under what conditions access is granted or denied
-- How ownership and delegation are enforced
-- How access is evaluated consistently across UI, API, and CLI access
+* Which paths an identity can access
+* Which operations are allowed (read, create, update, delete, list, etc.)
+* Under what conditions access is granted or denied
+* How ownership and delegation are enforced
+* How access is evaluated consistently across UI, API, and CLI access
 
 Authorization policies apply uniformly, regardless of how an identity authenticated.
 
----
+***
 
 ## Authorization Models Used by Akeyless
 
@@ -34,40 +34,38 @@ Akeyless combines multiple authorization models to provide both flexibility and 
 RBAC defines access using roles that grant permissions to specific paths and actions. Roles are reusable, composable, and commonly used to enforce least-privilege access for both humans and machines.
 
 RBAC answers the question:
-> *What actions is this identity allowed to perform on which resources?*
 
----
+> _What actions is this identity allowed to perform on which resources?_
 
 ### Attribute-Based Access Control (ABAC)
 
 ABAC extends RBAC by introducing conditional logic based on attributes such as identity properties, environment, time, network context, or request metadata.
 
 ABAC answers the question:
-> *Under what conditions should access be allowed or denied?*
+
+> _Under what conditions should access be allowed or denied?_
 
 RBAC and ABAC are evaluated together during policy enforcement.
-
----
 
 ### Personal Folders and Ownership
 
 Personal Folders provide ownership-based access separate from role assignments. They are commonly used for individual users, experimentation, or private workspaces.
 
 Ownership-based access determines:
-- Default access behavior for user-owned paths
-- How personal and shared resources are separated
-- When roles should be used instead of ownership
 
----
+* Default access behavior for user-owned paths
+* How personal and shared resources are separated
+* When roles should be used instead of ownership
 
 ### Universal Identity
 
 Universal Identity is an authorization abstraction that allows multiple authentication methods to map to a single logical identity. It provides consistent policy enforcement and governance even when workloads authenticate using different mechanisms across environments.
 
 Universal Identity answers the question:
-> *How do we represent and govern identities consistently, regardless of how they authenticate?*
 
----
+> _How do we represent and govern identities consistently, regardless of how they authenticate?_
+
+***
 
 ## How Authorization Is Evaluated
 
@@ -79,23 +77,25 @@ At a high level, authorization follows this sequence:
 4. Ownership rules are applied when relevant.
 5. The request is either allowed or denied.
 
-This evaluation process is the same whether access occurs through the web console, API, CLI, or Gateway-mediated workflows.
+This evaluation process is the same whether access occurs through the web console, API, CLI, or Akeyless Gateway-mediated workflows.
 
----
+***
 
 ## When to Use Each Model
 
-- **RBAC** for defining baseline permissions and shared access patterns
-- **ABAC** for conditional or context-aware access
-- **Personal Folders** for user-owned or private resources
-- **Universal Identity** for unifying access across authentication methods and environments
+* **RBAC** for defining baseline permissions and shared access patterns
+* **ABAC** for conditional or context-aware access
+* **Personal Folders** for individual user-owned resources
+* **Universal Identity** for unifying access across authentication methods and environments
 
 Most deployments use a combination of these models.
 
----
+***
 
 ## Next Steps
 
-The following pages in this section describe each authorization model in detail, including configuration options, evaluation behavior, and recommended usage patterns.
+The pages in this section describe each authorization model in detail, including configuration options, evaluation behavior, and recommended usage patterns.
 
 Understanding these models is essential for designing secure, scalable access controls in Akeyless.
+
+<br />
