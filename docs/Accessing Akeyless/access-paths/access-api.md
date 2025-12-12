@@ -5,7 +5,7 @@ hidden: false
 metadata:
   robots: index
 ---
-API access enables programmatic interaction with Akeyless. All core Akeyless functionality is exposed through a RESTful API, making API access the foundation for automation, integrations, and higher-level tools.
+API access enables programmatic interaction with Akeyless. All core Akeyless functionality is exposed through a <Glossary>RESTful</Glossary>  API, making API access the foundation for automation, integrations, and higher-level tools.
 
 API access is stateless and designed for machine-to-machine communication
 
