@@ -1,8 +1,8 @@
 ---
-title: Authentication Methods
+title: Legacy - Authentication Methods
 excerpt: ''
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: Authentication Methods Introduction
   description: ''
