@@ -1,8 +1,8 @@
 ---
 title: OIDC
 excerpt: OpenID Connect
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: OIDC
   description: ''
