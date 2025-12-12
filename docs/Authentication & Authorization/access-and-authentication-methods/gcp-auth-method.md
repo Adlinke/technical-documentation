@@ -1,8 +1,8 @@
 ---
 title: GCP
 excerpt: Google Cloud Platform (GCP)
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: GCP
   description: ''
