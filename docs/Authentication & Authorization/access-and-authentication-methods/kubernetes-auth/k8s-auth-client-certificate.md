@@ -1,8 +1,8 @@
 ---
 title: K8s Auth Client Certificate
 excerpt: ''
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: ''
   description: ''
