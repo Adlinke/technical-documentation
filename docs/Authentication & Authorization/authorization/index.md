@@ -111,19 +111,8 @@ Effective access control requires managing the full policy lifecycle:
 4. Reviewing access and audit activity
 5. Troubleshooting and remediating issues
 
-This section covers both the mechanics of policy evaluation and practical guidance for maintaining secure access over time.
-
-***
-
-## Subsections
-
-This section includes the following focused pages:
-
-* **Policy Evaluation** – How policies are evaluated, ordered, and enforced
-* **Policy Troubleshooting** – How to diagnose and resolve authorization issues
-
 ***
 
 ## Next Steps
 
-Understanding authorization, policies, and governance is essential for operating Akeyless securely at scale. The following pages provide detailed guidance on policy behavior and troubleshooting access decisions.
+Understanding authorization, policies, and governance is essential for operating Akeyless securely at scale. This section provides detailed guidance on policy behavior and troubleshooting access decisions.
