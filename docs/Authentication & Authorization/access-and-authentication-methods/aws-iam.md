@@ -1,8 +1,8 @@
 ---
 title: AWS IAM
 excerpt: AWS Identity and Access Management (IAM)
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: AWS IAM
   description: ''
