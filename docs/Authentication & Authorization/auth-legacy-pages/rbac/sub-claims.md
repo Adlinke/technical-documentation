@@ -1,8 +1,8 @@
 ---
 title: Sub-Claims
 excerpt: ''
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: Sub-Claims
   description: ''
