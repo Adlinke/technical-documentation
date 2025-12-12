@@ -1,7 +1,7 @@
 ---
 title: Legacy Pages
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   robots: index
 ---
