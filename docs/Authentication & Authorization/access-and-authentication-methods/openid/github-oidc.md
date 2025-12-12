@@ -1,8 +1,8 @@
 ---
 title: GitHub - OIDC
 excerpt: ''
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: GitHub - OIDC
   description: ''
