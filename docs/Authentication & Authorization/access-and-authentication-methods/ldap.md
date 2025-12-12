@@ -1,8 +1,8 @@
 ---
 title: LDAP
 excerpt: Lightweight Directory Access Protocol (LDAP)
-deprecated: false
-hidden: false
+deprecated: true
+hidden: true
 metadata:
   title: LDAP
   description: ''
