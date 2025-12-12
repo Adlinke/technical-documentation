@@ -6,9 +6,9 @@
 - gcp
 - ldap-1
 - oidc
-- saml-1
 - kerberos-1
 - kubernetes
+- saml-1
 - oauth-20-jwt
 - uid
 - oci
