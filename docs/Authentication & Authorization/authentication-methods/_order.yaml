@@ -1,5 +1,6 @@
 - api-key
 - aws-iam-1
+- azure-ad-1
 - certificate
 - email-1
 - ldap-1
@@ -8,7 +9,6 @@
 - kerberos-1
 - kubernetes
 - oauth-20-jwt
-- azure-ad-1
 - gcp
 - uid
 - oci
