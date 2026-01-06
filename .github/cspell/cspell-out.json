@@ -1,0 +1,205 @@
+{
+    "issues": [
+        {
+            "text": "subfolders",
+            "offset": 1164,
+            "line": {
+                "text": "Once created, the folder will immediately appear in your Items list, ready for you to start adding secrets, keys, or additional subfolders.\n",
+                "offset": 1036
+            },
+            "length": 10,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 31,
+            "col": 129,
+            "uri": "file:///home/runner/work/technical-documentation/technical-documentation/docs/Advanced%20Functionality/folder-management.md",
+            "context": {
+                "text": "Once created, the folder will immediately appear in your Items list, ready for you to start adding secrets, keys, or additional subfolders.\n",
+                "offset": 1036
+            }
+        },
+        {
+            "text": "subfolders",
+            "offset": 352,
+            "line": {
+                "text": "When a user logs in to Akeyless, they will see their personal folder at the root of the folder hierarchy. The user can then navigate through the subfolders within their personal folder to access their secrets and keys.\n",
+                "offset": 207
+            },
+            "length": 10,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 15,
+            "col": 146,
+            "uri": "file:///home/runner/work/technical-documentation/technical-documentation/docs/Authentication%20&%20Authorization/personal-corporate-areas-navigation/folder-navigation-within-personal-corporate-areas.md",
+            "context": {
+                "text": "When a user logs in to Akeyless, they will see their personal folder at the root of the folder hierarchy. The user can then navigate through the subfolders within their personal folder to access their secrets and keys.\n",
+                "offset": 207
+            }
+        },
+        {
+            "text": "subfolders",
+            "offset": 1864,
+            "line": {
+                "text": "* The user can create subfolders within their Personal Folder to organize their secrets and keys.\n",
+                "offset": 1842
+            },
+            "length": 10,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 42,
+            "col": 23,
+            "uri": "file:///home/runner/work/technical-documentation/technical-documentation/docs/Authentication%20&%20Authorization/personal-corporate-areas-navigation/index.md",
+            "context": {
+                "text": "* The user can create subfolders within their Personal Folder to organize their secrets and keys.\n",
+                "offset": 1842
+            }
+        },
+        {
+            "text": "reconstructable",
+            "offset": 1480,
+            "line": {
+                "text": "* No storage of full secrets, private keys, or reconstructable credential material.\n",
+                "offset": 1433
+            },
+            "length": 15,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 29,
+            "col": 48,
+            "uri": "file:///home/runner/work/technical-documentation/technical-documentation/docs/Getting%20Started/zero-knowledge-architecture.md",
+            "context": {
+                "text": "* No storage of full secrets, private keys, or reconstructable credential material.\n",
+                "offset": 1433
+            }
+        },
+        {
+            "text": "uppercased",
+            "offset": 3266,
+            "line": {
+                "text": "* As a fallback for any ext.cred.* property, an environment variable with the uppercased name and dots replaced by underscores is also read (for example, `EXT_CRED_AKEYLESS_GW_URL`).\n",
+                "offset": 3188
+            },
+            "length": 10,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 78,
+            "col": 79,
+            "uri": "file:///home/runner/work/technical-documentation/technical-documentation/docs/Integrations%20&%20Plugins/servicenow-credential-resolver.md",
+            "context": {
+                "text": "* As a fallback for any ext.cred.* property, an environment variable with the uppercased name and dots replaced by underscores is also read (for example, `EXT_CRED_AKEYLESS_GW_URL`).\n",
+                "offset": 3188
+            }
+        },
+        {
+            "text": "Subfolders",
+            "offset": 3410,
+            "line": {
+                "text": "3. **Subfolders**: Utilize subfolders within the personal and corporate folders to further categorize your passwords based on specific projects, teams, or categories.\n",
+                "offset": 3405
+            },
+            "length": 10,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 55,
+            "col": 6,
+            "uri": "file:///home/runner/work/technical-documentation/technical-documentation/docs/Password%20Manager/password-manager-mobile-application/choosing-password-locationfolder.md",
+            "context": {
+                "text": "3. **Subfolders**: Utilize subfolders within the personal and corporate folders to further categorize your passwords based on specific projects, teams, or categories.\n",
+                "offset": 3405
+            }
+        },
+        {
+            "text": "subfolders",
+            "offset": 3432,
+            "line": {
+                "text": "3. **Subfolders**: Utilize subfolders within the personal and corporate folders to further categorize your passwords based on specific projects, teams, or categories.\n",
+                "offset": 3405
+            },
+            "length": 10,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 55,
+            "col": 28,
+            "uri": "file:///home/runner/work/technical-documentation/technical-documentation/docs/Password%20Manager/password-manager-mobile-application/choosing-password-locationfolder.md",
+            "context": {
+                "text": "3. **Subfolders**: Utilize subfolders within the personal and corporate folders to further categorize your passwords based on specific projects, teams, or categories.\n",
+                "offset": 3405
+            }
+        },
+        {
+            "text": "subfolders",
+            "offset": 360,
+            "line": {
+                "text": "The folder view organizes secrets and keys into folders and subfolders. This can be useful for organizing large numbers of secrets and keys, or for grouping secrets and keys by project or team.\n",
+                "offset": 300
+            },
+            "length": 10,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 17,
+            "col": 61,
+            "uri": "file:///home/runner/work/technical-documentation/technical-documentation/docs/Password%20Manager/password-manager-mobile-application/password-list-switching-between-folders-flat-view.md",
+            "context": {
+                "text": "The folder view organizes secrets and keys into folders and subfolders. This can be useful for organizing large numbers of secrets and keys, or for grouping secrets and keys by project or team.\n",
+                "offset": 300
+            }
+        },
+        {
+            "text": "autofilled",
+            "offset": 2323,
+            "line": {
+                "text": "2. Choose the appropriate account or login details from the Akeyless Password Manager suggestions. Your username and password will be autofilled into the login fields.\n",
+                "offset": 2189
+            },
+            "length": 10,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 41,
+            "col": 135,
+            "uri": "file:///home/runner/work/technical-documentation/technical-documentation/docs/Password%20Manager/password-manager-mobile-application/using-autofill-and-password-injection-functionality/set-autofill-for-android-devices.md",
+            "context": {
+                "text": "2. Choose the appropriate account or login details from the Akeyless Password Manager suggestions. Your username and password will be autofilled into the login fields.\n",
+                "offset": 2189
+            }
+        },
+        {
+            "text": "autofilled",
+            "offset": 2641,
+            "line": {
+                "text": "4. After your credentials are autofilled, proceed with any additional login steps required by the app or website.\n",
+                "offset": 2611
+            },
+            "length": 10,
+            "isFlagged": false,
+            "isFound": false,
+            "row": 45,
+            "col": 31,
+            "uri": "file:///home/runner/work/technical-documentation/technical-documentation/docs/Password%20Manager/password-manager-mobile-application/using-autofill-and-password-injection-functionality/set-autofill-for-android-devices.md",
+            "context": {
+                "text": "4. After your credentials are autofilled, proceed with any additional login steps required by the app or website.\n",
+                "offset": 2611
+            }
+        }
+    ],
+    "info": [],
+    "debug": [],
+    "error": [],
+    "progress": [],
+    "result": {
+        "files": 473,
+        "filesWithIssues": [
+            "docs/Advanced Functionality/folder-management.md",
+            "docs/Authentication & Authorization/personal-corporate-areas-navigation/folder-navigation-within-personal-corporate-areas.md",
+            "docs/Authentication & Authorization/personal-corporate-areas-navigation/index.md",
+            "docs/Getting Started/zero-knowledge-architecture.md",
+            "docs/Integrations & Plugins/servicenow-credential-resolver.md",
+            "docs/Password Manager/password-manager-mobile-application/choosing-password-locationfolder.md",
+            "docs/Password Manager/password-manager-mobile-application/password-list-switching-between-folders-flat-view.md",
+            "docs/Password Manager/password-manager-mobile-application/using-autofill-and-password-injection-functionality/set-autofill-for-android-devices.md"
+        ],
+        "issues": 10,
+        "errors": 0,
+        "cachedFiles": 0,
+        "skippedFiles": 0
+    }
+}
